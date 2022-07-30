@@ -3,8 +3,8 @@ import java.util.Scanner
 fun main(){
     println("Please enter two numbers")
     val reader = Scanner(System.`in`)
-    val x : Int= reader.nextInt()
+    val x : Double= reader.nextDouble()
     println("+")
-    val y : Int= reader.nextInt()
+    val y : Double= reader.nextDouble()
     println(x + y)
 }
